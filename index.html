@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="header">
   <div class="container">
     <div class="header__body">
       <a href="#" class="header__logo">
@@ -18,69 +18,65 @@
     <div class="header__burger">
     </div>
   </div>
-  <div class="header__menu">
+    <div class="header__menu">
     <div class="row">
-      <div class="menu">
-        <nav clss="primary__link">
-            <a href="#" class="primary__link">SHOP</a>
-            <a href="#" class="primary__link_active">NEWS</a>
-            <a href="#" class="primary__link">TEAM</a>
-            <a href="#" class="primary__link">LEGACY</a>
-            <a href="#" class="primary__link">HELP</a>
-        </nav>
-      </div>
-      <div class="menu__left">
-        <form class="search">
-          <input type="text" class="search__input" placeholder="Search">
-          <button type="submit" class="button"><i class="fas fa-search"></i></button>
-        </form>
-        <ul class="menu__session">
-          <li class="menu__session__item">
-            <div class="account">
-              <a href="#" class="signin">SIGN IN</a></div>
-          </li>
-          <li class="menu__session__cart">
-            <a href="#" class="cart">CART</a>
-              <span class="cart-count">1</span>
-          </li>
-          <li class="menu__session_lang">
-            <a href="#" class="lang"></a>
-          </li>
+       <ul class="primary">
+         <li class="primary__menu">
+           <a href="#" class="link">SHOP</a></li>
+          <li class="primary__menu">
+            <a href="#" class="link_active">NEWS</a></li>
+          <li class="primary__menu">
+            <a href="#" class="link">TEAM</a></li>
+          <li class="primary__menu">
+            <a href="#" class="link">LEGACY</a></li>
+          <li class="primary__menu">
+            <a href="#" class="link">HELP</a></li>
         </ul>
       </div>
+      <div class="sidenav">
+      <form class="search">
+        <input type="text" class="search__input" placeholder="Search">
+        <button type="submit" class="search__button">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <a href="" class="sidenav__signin">SIGN IN</a>
+      <a href="#" class="sidenav__cart">CART</a>
+            <span class="cart-count">1</span>
+      <a href="#" class="sidenav__lang"></a>
     </div>
-  </div>
+    </div>
   </header>
     <div class="content">
       <div class="container">
         <div class="content_banner">
-          <span class="content-banner-inner">
-            <img src="projectimages/rob-potter-422534-unsplash.PNG" alt="banner" class="imgbanner">
-            <h2 class="headline">LEGENDARY FOOTWEAR REBORN.</h2>
-            <a href="" class="more">SHOP NOW</a>
-          </span>
+          <h2 class="headline">LEGENDARY FOOTWEAR REBORN.</h2>
+          <a href="" class="more">SHOP NOW</a>
         </div>
         <div class="featured-products">
           <h3 class="title">FEATURED PRODUCTS</h3>
-          <div class="product">
+          <div class="slider">
+            <div class="product">
             <div class="product-wrapper">
               <div class="productinfo">
                 <a href="#" title="Atlas Black/Rasta Axion" class="item-link">
                 <img src="projectimages/Atlas Black.png" alt="cross1"></a>
-                <p>Atlas Black/Rasta Axion</p>
-                <p>$89.00</p>
+                <div class="product-details">
+                  <p class="product-details__text">Atlas Black/Rasta Axion</p>
+                  <p class="product-details__price">$89.00</p>
+                </div>
                 <div class="available-colors">
                   <ul class="colors">
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#C4C4C4" title="Silver">Silver</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#0E1211" title="Black">Black</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#B62E3C" title="Wine">Wine</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#FDB431" title="Yellow">Yellow</a>
                     </li>
                   </ul>
@@ -88,25 +84,27 @@
               </div>
             </div>
           </div>
-          <div class="product">
+            <div class="product">
             <div class="product-wrapper">
               <div class="productinfo">
                 <a href="#" title="Camel/Chili Pepper Axion" class="item-link">
                 <img src="projectimages/Camel.png" alt="cross2"></a>
-                <p>Camel/Chili Pepper Axion</p>
-                <p>$74.00</p>
+                <div class="product-details">
+                  <p class="product-details__text">Camel/Chili Pepper Axion</p>
+                  <p class="product-details__price">$74.00</p>
+                </div>
                 <div class="available-colors">
                   <ul class="colors">
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#C4C4C4" title="Silver">Silver</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#E29D69" title="Sandcolor">Sand</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#B62E3C" title="Pink-red">Pink-red</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#FDB431" title="Yellow">Yellow</a>
                     </li>
                   </ul>
@@ -114,25 +112,27 @@
               </div>
             </div>
           </div>
-          <div class="product">
+            <div class="product">
             <div class="product-wrapper">
               <div class="productinfo">
                 <a href="#" title="Mandel Smoke/Rust Axion" class="item-link">
                 <img src="projectimages/Mandel Smoke.png" alt="cross3"></a>
-                <p>Mandel Smoke/Rust Axion</p>
-                <p>$69.00</p>
+                <div class="product-details">
+                  <p class="product-details__text">Mandel Smoke/Rust Axion</p>
+                  <p class="product-details__price">$69.00</p>
+                </div>
                 <div class="available-colors">
                   <ul class="colors">
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#C4C4C4" title="Silver">Silver</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#762E31" title="Medium dark pink-red">Dark pink-red</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#41479B" title="Cobalt blue">Cobalt blue</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#FDB431" title="Yellow">Yellow</a>
                     </li>
                   </ul>
@@ -140,25 +140,28 @@
               </div>
             </div>
           </div>
-          <div class="product">
-            <div class="product-wrapper>"
+            <div class="product">
+            <div class="product-wrapper">
               <div class="productinfo">
                 <a href="#" title="Cloud/Electric Blue Axion" class="item-link">
                 <img src="projectimages/Cloud.png" alt="cross4"></a>
-                <p>Cloud/Electric Blue Axion</p>
-                <p>$69.00</p>
+              </div>
+              <div class="product-details">
+                <p class="product-details__text">Cloud/Electric Blue Axion</p>
+                <p class="product-details__price">$69.00</p>
+              </div>
                 <div class="available-colors">
                   <ul class="colors">
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#C4C4C4" title="Silver">Silver</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#257DA9" title="Azure">Azure</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#41479B" title="B62E3C" title="Pink-red">Pink-red</a>
                     </li>
-                    <li class="selectcolor">
+                    <li class="colors__select">
                       <a href="#" class="select" style="background-color:#FDB431" title="Yellow">Yellow</a>
                     </li>
                   </ul>
@@ -166,194 +169,187 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <section id="description" class="segment">
-      <div class="banner">
-        <div class="banner-container">
-          <div class="player">
-            <video width="563px" height="309px" src="" poster="projectimages/poster.png" controls tools>
-              Тег video не поддерживается вашим браузером.
-            </video>
-          </div>
-          <div class="player-text">
-            <h3 class="title">LEGENDARY FOOTWEAR REBORN</h3>
-            <p> We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
-            <a href="#" class="more">LEARN MORE</a>
           </div>
         </div>
       </div>
-    </section>
-    <section class="segment-histories">
-      <h3 class="title">FEATURED PRODUCTS</h3>
-      <div class="threestories">
-        <article ="story">
-          <a href="#" class="story-image">
-          <div class="background-image">
-            <img src="projectimages/Story1.png" alt="inside first story">
+      <section id="description" class="segment">
+        <div class="banner">
+          <div class="banner-container">
+            <div class="player">
+              <video width="563px" height="309px" src="" poster="projectimages/poster.png" controls tools>
+                Тег video не поддерживается вашим браузером.
+              </video>
+            </div>
+            <div class="player-text">
+              <h3 class="title">LEGENDARY FOOTWEAR REBORN</h3>
+              <p> We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
+              <a href="#" class="more">LEARN MORE</a>
+            </div>
           </div>
-          </a>
-          <div class="text-container">
-            <h4 class="heading">Presents Justin Anagoa</h4>
-            <p>Anagoa’s been a part of the skater’s family ever since his early teenage years.
-              He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
-            <ul class="list">
-              <li class="item">
-                <a href="#" class="more">LEARN MORE</a>
-              </li>
-            </ul>
-            <span class="data">11.08.2018</span>
-          </div>
-        </article>
-        <article ="story">
-          <a href="#" class="story-image">
-          <div class="background-image">
-            <img src="projectimages/Story2.png" alt="inside second story">
-          </div>
-          </a>
-          <div class="text-container">
-            <h4 class="heading">First Frontside flip</h4>
-            <p>Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.
+        </div>
+      </section>
+      <section class="segment-histories">
+        <h3 class="title">FEATURED PRODUCT</h3>
+        <div class="slider">
+          <div class="threestories">
+          <article ="story">
+            <a href="#" class="story__image">
+            <div class="background-image">
+              <img src="projectimages/Story1.png" alt="inside first story">
+            </div>
+            </a>
+            <div class="text-container">
+              <h4 class="heading">Presents Justin Anagoa</h4>
+              <p>Anagoa’s been a part of the skater’s family ever since his early teenage years.
+                He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
+              <div class="list">
+                <a href="#" class="list__more">LEARN MORE</a>
+                <span class="list__data">11.08.2018</span>
+              </div>
+          </article>
+          <article ="story">
+            <a href="#" class="story__image">
+            <div class="background-image">
+              <img src="projectimages/Story2.png" alt="inside second story">
+            </div>
+            </a>
+            <div class="text-container">
+              <h4 class="heading">First Frontside flip</h4>
+              <p>Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.
 
-              Photo:Yoon Sul</p>
-            <ul class="list">
-              <li class="item">
-                <a href="#" class="more">LEARN MORE</a>
-              </li>
-            </ul>
-            <span class="data">17.08.2018</span>>
-          </div>
-        </article>
-        <article ="story">
-          <a href="#" class="story-image">
-          <div class="background-image">
-            <img src="projectimages/Story3.png" alt="inside third story">
-          </div>
-          </a>
-          <div class="text-container">
-            <h4 class="heading">Kevin Baekkel is Pro</h4>
-            <p>Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster.
-              After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.</p>
-            <ul class="list">
-              <li class="item">
-                <a href="#" class="more">LEARN MORE</a>
-              </li>
-            </ul>
-            <span class="data">29.07.2018</span>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="sliding">
-      <h4 class="heading">#AXIONfootwear</h4>
-      <div class="images-row">
-        <img src="projectimages/img1.png" class="images"/>
-        <img src="projectimages/img2.png" class="images"/>
-        <img src="projectimages/img3.png" class="images"/>
-        <img src="projectimages/img4.png" class="images"/>
-        <img src="projectimages/img5.png" class="images"/>
-        <img src="projectimages/img6.png" class="images"/>
-        <img src="projectimages/img7.png" class="images"/>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="layout">
-        <div class="footer-content">
-          <nav class="footer-category">
-            <h5 class="footer-heading">SHOP</h5>
-            <div class="footer-list">
-              <div class="item">
-                <a href="#" class="link">Login</a>
+                Photo:Yoon Sul</p>
+              <div class="list">
+                <a href="#" class="list__more">LEARN MORE</a>
+                <span class="list__data">17.08.2018</span>>
               </div>
-              <div class="item">
-                <a href="#" class="link">Whish List</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Order History</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Track Order</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Gift cards</a>
-              </div>
+          </article>
+          <article ="story">
+            <a href="#" class="story__image">
+            <div class="background-image">
+              <img src="projectimages/Story3.png" alt="inside third story">
             </div>
-          </nav>
-          <nav class="footer-category">
-            <h5 class="footer-heading">CUSTOMER SERVICE</h5>
-            <div class="footer-list">
-              <div class="item">
-                <a href="#" class="link">Contact Us</a>
+            </a>
+            <div class="text-container">
+              <h4 class="heading">Kevin Baekkel is Pro</h4>
+              <p>Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster.
+                After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.</p>
+              <div class="list">
+                <a href="#" class="list__more">LEARN MORE</a>
+                <span class="list__data">29.07.2018</span>
               </div>
-              <div class="item">
-                <a href="#" class="link">Help/FAQ</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Shipping</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Returns</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Size guide</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Holiday shopping</a>
-              </div>
-            </div>
-          </nav>
-          <nav class="footer-category">
-            <h5 class="footer-heading">MISCELLANEOUS</h5>
-            <div class="footer-list">
-              <div class="item">
-                <a href="#" class="link">About Us</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Careers</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Privacy Policy</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Terms & Conditions</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Ethical Policy</a>
-              </div>
-              <div class="item">
-                <a href="#" class="link">Homepage US/UK</a>
-              </div>
-            </div>
-          </nav>
-          <section class="footer-newsletter">
-            <div class="newsletter">
-              <h5 class="footer-heading">NEWSLETTERSIGNUP</h5>
-              <p class="text">Get 10% Off Your Next Order!</p>
-              <div class="signup">
-                <button class="signup-btn" type="submit">SIGN UP</button>
-              </div>
-            </div>
-            <ul class="footer-social">
-              <li class="social">
-                <a href="#" target="_blank" rel="noopener noreferrer" title="facebook" class="icon"></a>
-              </li>
-              <li class="social">
-                <a href="#" target="_blank" rel="noopener noreferrer" title="Twitter" class="icon"></a>
-              </li>
-              <li class="social">
-                <a href="#" target="_blank" rel="noopener noreferrer" title="Instagram" class="icon"></a>
-              </li>
-              <li class="social">
-                <a href="#" target="_blank" rel="noopener noreferrer" title="Pinterest" class="icon"></a>
-              </li>
-            </ul>
-          </section>
+          </article>
         </div>
-        <div class="footer=copyright">
-          <span class="copyright">© 2019 Axion. All rights reserved.</span>
         </div>
-      </div>
-    </footer>
-  </body>
-</html>
+      </section>
+      <section class="sliding">
+        <h4 class="heading">#AXIONfootwear</h4>
+        <div class="images-row">
+          <img src="projectimages/img1.png" class="images"/>
+          <img src="projectimages/img2.png" class="images"/>
+          <img src="projectimages/img3.png" class="images"/>
+          <img src="projectimages/img4.png" class="images"/>
+          <img src="projectimages/img5.png" class="images"/>
+          <img src="projectimages/img6.png" class="images"/>
+          <img src="projectimages/img7.png" class="images"/>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="layout">
+          <div class="footer-content">
+            <nav class="footer-category">
+              <h5 class="footer-heading">SHOP</h5>
+              <div class="footer-list">
+                <div class="item">
+                  <a href="#" class="link">Login</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Whish List</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Order History</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Track Order</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Gift cards</a>
+                </div>
+              </div>
+            </nav>
+            <nav class="footer-category">
+              <h5 class="footer-heading">CUSTOMER SERVICE</h5>
+              <div class="footer-list">
+                <div class="item">
+                  <a href="#" class="link">Contact Us</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Help/FAQ</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Shipping</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Returns</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Size guide</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Holiday shopping</a>
+                </div>
+              </div>
+            </nav>
+            <nav class="footer-category">
+              <h5 class="footer-heading">MISCELLANEOUS</h5>
+              <div class="footer-list">
+                <div class="item">
+                  <a href="#" class="link">About Us</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Careers</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Privacy Policy</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Terms & Conditions</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Ethical Policy</a>
+                </div>
+                <div class="item">
+                  <a href="#" class="link">Homepage US/UK</a>
+                </div>
+              </div>
+            </nav>
+            <section class="footer-newsletter">
+              <div class="newsletter">
+                <h5 class="footer-heading">NEWSLETTERSIGNUP</h5>
+                <p class="text">Get 10% Off Your Next Order!</p>
+                <div class="signup">
+                  <button class="signup-btn" type="submit">SIGN UP</button>
+                </div>
+              </div>
+              <ul class="footer-social">
+                <li class="social">
+                  <a href="#" target="_blank" rel="noopener noreferrer" title="facebook" class="icon"></a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" rel="noopener noreferrer" title="Twitter" class="icon"></a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" rel="noopener noreferrer" title="Instagram" class="icon"></a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" rel="noopener noreferrer" title="Pinterest" class="icon"></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="footer=copyright">
+            <span class="copyright">© 2019 Axion. All rights reserved.</span>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
