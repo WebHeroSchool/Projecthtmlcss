@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../projectfont/Gotham Pro.eot');
+  src: url('../projectfont/Gotham Pro.woff2') format('woff2'),
+       url('../projectfont/Gotham Pro.eot?#iefix') format('embedded-opentype'),
+       url('../projectfont/Gotham Pro.woff') format('woff'),
+       url('../projectfont/Gotham Pror.ttf') format('truetype'),
+       url('../projectfont/Gotham Pro.svg#lazer') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.header__menu {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.headline {
+  font-family: Gotham Pro;
+  font-size: 30px;
+  line-height: 29px;
+}
+
+.more {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.title {
+  font-family: Gotham Pro;
+  font-size: 22px;
+}
+
+.product-details__text {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.product-details__price {
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 13px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Gotham Pro;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.heading {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+}
+
+.list__more {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.list__data {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.footer-heading {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.link {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.text {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.signup-btn {
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.copyright {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+}

@@ -1,0 +1,88 @@
+.header__menu {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.headline {
+  font-family: GothamProRegular;
+  font-size: 30px;
+  line-height: 29px;
+}
+
+.more {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.title {
+  font-family: GothamProRegular;
+  font-size: 22px;
+}
+
+.product-details__text {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.product-details__price {
+  font-family: GothamProBold;
+  font-size: 14px;
+  line-height: 13px;
+}
+
+p {
+  font-family:GothamProRegular;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.heading {
+  font-family: GothamProRegular;
+  font-size: 18px;
+  line-height: 17px;
+}
+
+.list__more {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.list__data {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.footer-heading {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.link {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.text {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.signup-btn {
+  font-family: GothamProRegular;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.copyright {
+  font-family: GothamProRegular;
+  font-size: 12px;
+  line-height: 11px;
+}
