@@ -53,7 +53,6 @@ html, body {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  height: 95.79px;
   z-index: 2;
   align-items: center;
   padding: 0px 0px 0px 173.3px;
@@ -92,7 +91,6 @@ html, body {
   display: flex;
   position: relative;
   z-index: 2;
-  right: 47.01px;
   padding: 48.02px 47.01px 23.76px 200px;
 }
 
