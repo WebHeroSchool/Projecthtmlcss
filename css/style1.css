@@ -58,37 +58,37 @@ html, body {
   padding: 0px 0px 0px 173.3px;
 }
 
-.primary {
-  display: flex;
+.row {
+  /* display: flex; */
   position: relative;
   z-index: 2;
   padding: 48.02px 34.99px 23.76px;
 }
-
-.primary__menu {
+.primary {
   list-style: none;
   margin: 0px 0px 0px 34.99px;
   height: 24px;
-
 }
 
 .link {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 0px 34.99px 0px 0px;
 }
 
 .link_active {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
+    padding: 0px 34.99px 0px 0px;
 }
 
 .sidenav {
   display: flex;
   position: relative;
   z-index: 2;
-  padding: 48.02px 47.01px 23.76px 200px;
+  padding: 48.02px 54px 23.76px 100px;
 }
 
 .search {
