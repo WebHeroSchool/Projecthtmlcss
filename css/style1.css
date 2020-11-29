@@ -13,6 +13,7 @@ html, body {
   width: 100%;
   top: 0px;
   left: 0px;
+  z-index: 2;
 }
 
 .header:before {
@@ -23,7 +24,7 @@ html, body {
   left: 0px;
   top: 0px;
   z-index: 2;
-  background: pink;
+  background: white;
 }
 
 .header__body {
@@ -37,7 +38,7 @@ html, body {
 .header__logo {
   position: absolute;
   height: 55px;
-  left: calc(50% - 49.66px/2 - 440.16px);
+  left: 47.01px;
   top: 32.46px;
   z-index: 2;
 }
@@ -66,7 +67,7 @@ html, body {
 }
 .primary {
   list-style: none;
-  margin: 0px 0px 0px 34.99px;
+  padding: 48.02px 34.99px 23.76px;
   height: 24px;
 }
 
@@ -81,29 +82,30 @@ html, body {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
-    padding: 0px 34.99px 0px 0px;
+  padding: 0px 34.99px 0px 0px;
 }
 
 .sidenav {
   display: flex;
   position: relative;
   z-index: 2;
+  height: 24px;
   padding: 48.02px 54px 23.76px 100px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .search {
   position: absolute;
   width: 160.65px;
   height: 19.02px;
-  left: 611.75px;
-  top: 53px;
+  padding: 53px 251.6px 23.76px 140.6px;
 }
 
 .search__input {
   width: 160.65px;
-  height: 0px;
   top: 72.02px;
-  left: 627.94px;
+  left: 140.6px;
   border: 0;
   outline: none;
   background: transparent;
@@ -118,7 +120,7 @@ html, body {
   position: absolute;
   width: 12.64px;
   height: 14px;
-  left: calc(50% - 12.64px/2 + 253px);
+  left:  248.2px;
   top: 53px;
   border: none;
   background: transparent;
@@ -127,6 +129,7 @@ html, body {
 
 .fas {
   position: absolute;
+  width: 12.2px;
   left: 1.73%;
   right: 1.73%;
   top: 0%;
@@ -137,40 +140,33 @@ html, body {
   position: absolute;
   width: 49.53px;
   height: 24px;
-  left: calc(50% - 49.53px/2 + 316.77px);
+  left: 314.65px;
   top: 48.02px;
   display: flex;
   align-items: center;
   text-align: justify;
   text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 
 .sidenav__cart {
   position: absolute;
   width: 39.62px;
   height: 24px;
-  left: calc(50% - 39.62px/2 + 386.67px);
+  left: 379.60px;
   top: 48.02px;
   display: flex;
   align-items: center;
   text-align: justify;
   text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 
-.cart-count {
-  position: absolute;
-  width: 13.47px;
-  height: 5.15px;
-  left: calc(50% - 13.47px/2 + 413.22px);
-  top: 57.67px;
-  color: white;
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  text-transform: uppercase;
-}
-
-.cart-count:before {
+.sidenav__cart:after {
   content:"";
   position: absolute;
   width: 13.47px;
@@ -183,10 +179,207 @@ html, body {
   border-radius: 50px;
 }
 
+.cart-count {
+  position: absolute;
+  width: 13.47px;
+  height: 5.15px;
+  left: 423px;
+  top: 57.67px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
 .sidenav__lang {
   position: absolute;
   width: 18.06px;
+  left: 449.97px;
   height: 20px;
-  left: calc(50% - 18.06px/2 + 455.96px);
-  top: 49px;
+  top: 53px;
+}
+.sidenav__lang img {
+  height: 18px;
+  width: 18px;
+}
+
+.content {
+  padding: 129.55px 47px 0px 47px;
+}
+
+.content_banner {
+  background-image: url(../img/rob-potter-422534-unsplash.png);
+  position: absolute;
+  width: 930px;
+  height: 252.82px;
+  padding: 0px 47px 0px 47px;
+}
+
+.headline {
+  position: absolute;
+  width: 208.98px;
+  height: 78.5px;
+  left: 100.79px;
+  top: 82.05px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+div .content_banner .more {
+  position: absolute;
+  width: 76.9px;
+  height: 10.83px;
+  left: 100.79px;
+  top: 207.83px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+}
+
+div .content_banner .more:after {
+  content:"";
+  position: absolute;
+  width: 45.74px;
+  height: 0px;
+  left: 184.41px;
+  top: 212.45px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.featured-products {
+  padding: 353.95px 47px 0px 47px;
+}
+
+.featured-products .title {
+  position: absolute;
+  width: 244px;
+  height: 22px;
+  left:390px;
+  top: 449.74px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.slider {
+	position: relative;
+  padding: 15.26px 47px 0px 47px;
+  height: 261px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product {
+  width: 208px;
+	height: 261px;
+	position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+	top: 0;
+	left: 0;
+}
+
+.product::after {
+  content:"";
+  position: absolute;
+  width: 0px;
+  height: 101px;
+  left: 16px;
+  top: 56.26px;
+  opacity: 0.2;
+  border: 1px solid #000000;
+}
+
+.product-wrapper {
+  top: 67.38px;
+  padding-left:0px;
+}
+.productinfo{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+  border: 0.5px solid #FFFFFF;
+  box-sizing: border-box;
+}
+.item-link{
+  position: absolute;
+  left: 10.06%;
+  right: 8.26%;
+  top: 0%;
+  bottom: 33.69%;
+}
+.product-details {
+  padding: 196.75px 10.85px 20.64px 10.85px;
+}
+.product-details__text{
+  position: absolute;
+  left: 5.22%;
+  right: 5.22%;
+  top: 75.38%;
+  bottom: 15.42%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.product-details__price {
+  position: absolute;
+  width: 77.64px;
+  height: 24px;
+  left: 5.22%;
+  right: 57.46%;
+  top: 82.9%;
+  bottom: 7.91%;
+
+}
+
+.available-colors {
+  position: absolute;
+  top: 89%;
+  height: 8px;
+  bottom: 11.16%;
+  left: 148.31px;
+  right: 5.22%;
+  justify-content: flex-end;
+
+}
+
+.colors {
+  font-size: 0;
+  letter-spacing: 0;
+  list-style: none;
+  height: 8px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.colors__select {
+  display: inline-block;
+
+}
+.colors .select {
+  border-radius: 50%;
+  display: block;
+  height: 7px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 7px;
+
+
 }
